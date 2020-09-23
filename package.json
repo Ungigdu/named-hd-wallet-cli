@@ -1,0 +1,29 @@
+{
+  "name": "named-wallet",
+  "version": "0.1.0",
+  "description": "named hd wallet for ethereum",
+  "main": "/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ungigdu/named-hd-wallet-cli.git"
+  },
+  "keywords": [
+    "ethereum",
+    "hd-wallet",
+    "cli"
+  ],
+  "author": "sunzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ungigdu/named-hd-wallet-cli/issues"
+  },
+  "homepage": "https://github.com/Ungigdu/named-hd-wallet-cli#readme",
+  "dependencies": {
+    "eth-hd-wallet": "^0.5.1",
+    "mkdirp": "^1.0.4",
+    "readline-sync": "^1.4.10"
+  }
+}
